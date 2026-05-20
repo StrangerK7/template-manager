@@ -19,3 +19,13 @@
 - Tested: Reel Template successfully apply hua
 - Bins, timelines, settings sab automatically create huye
 - **Milestone: First end-to-end DaVinci tool functional**
+
+## Day 4 — Resolve Menu Integration
+- Refactored: shared logic core.py mein, scripts thin
+- Banaye: resolve_scripts/Save_Template.py + Apply_Template.py
+- Symlinks setup — Resolve ke Utility folder mein link
+- **Workspace → Scripts → Utility menu se dono scripts chal rahi hain**
+- Apply Template successfully tested — naya project + bins + timeline created
+- Save Template tested — JSON properly save hua
+
+**Milestone: First plugin-style tool — Resolve ke andar se chala**
