@@ -55,3 +55,35 @@
 - Template Manager UI rebuild in UIManager
 - ComboBox, LineEdit, multiple buttons
 - Replace template_manager_ui.py (Tkinter) with native version
+
+## Day 6 — Production UI in UIManager
+
+### Learning (Block 1)
+- ui_test2.py — explored ComboBox, LineEdit, HGroup
+- Confirmed 6 widgets: Label, Button, ComboBox, LineEdit, VGroup, HGroup
+- Event handling pattern: win.On.WidgetID.Event = handler
+
+### Build (Block 2-3)
+- Template_Manager_v2.py — production UIManager version
+- GroupBox issue (None type) → replaced with styled Labels
+- Section headers with CSS styling (blue ▸ headers)
+- Status bar with dynamic colors (green/orange/red/blue)
+- Live refresh on save
+- try/except error handling — no crashes
+
+### Test (Block 4) — ALL PASSED ✅
+- Apply with auto-name
+- Apply with custom name
+- Save current project
+- Manual refresh
+- Error handling (duplicate name)
+- Close (button + X)
+
+### Cleanup (Block 5)
+- experiments/ folder for learning files
+- Tkinter version archived
+- Resolve symlinks cleaned (3 active)
+- README rewrote as production doc
+
+### Milestone
+🎯 **v1.0 production-ready** — 5 days zero-to-shipping plugin
